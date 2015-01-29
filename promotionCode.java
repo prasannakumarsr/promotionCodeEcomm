@@ -1,6 +1,6 @@
 //Method to be used to get the promotion code stored in DB
 //Struts 2 is the framework used
-public String promoCode(){
+public String promotionCode(){
 	request =ServletActionContext.getRequest();
 	HttpSession session = request.getSession();
 	String wareHouseCode = (String) session.getAttribute("wareHouseCode"); //Get the warehouse code of the particular user logged in
